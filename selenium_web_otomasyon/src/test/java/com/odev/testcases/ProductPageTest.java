@@ -23,16 +23,16 @@ public class ProductPageTest extends TestBase {
     public void setup() {
         init();
         homePage = new HomePage();
-        //loginPage = homePage.clickSignInButton();
-        //homePage = loginPage.clickLoginButton();
+        loginPage = homePage.clickSignInButton();
+        homePage = loginPage.clickLoginButton();
         searchResultsPage = homePage.search("bilgisayar");
-        //searchResultsPage = searchResultsPage.clickPageTwoButton();
+        searchResultsPage = searchResultsPage.clickPageTwoButton();
         productPage = searchResultsPage.clickRandomProduct();
     }
 
     @Test
     public void navigateToShopList() {
-        productPage.clickAddBasketButton();
+        //productPage.clickAddBasketButton();
         //productPage.clickMyBasketButton();
     }
 

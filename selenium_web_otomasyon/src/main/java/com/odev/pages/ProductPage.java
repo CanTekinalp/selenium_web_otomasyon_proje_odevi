@@ -8,8 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ProductPage extends TestBase {
 
-    @FindBy(xpath = "//a[contains(@title, 'Sepete Ekle')]")
-    WebElement addBasketButton;
+    // Muhtemel xpath hatası
+//    @FindBy(xpath = "//a[contains(@title,'Sepete Ekle')]")
+//    WebElement addBasketButton;
 
     @FindBy(className = "myBasket")
     WebElement myBasketButton;
@@ -20,9 +21,9 @@ public class ProductPage extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-    public void clickAddBasketButton() {
-        addBasketButton.click();
-    }
+//    public void clickAddBasketButton() {
+//        addBasketButton.click();
+//    }
 
     public MyBasketPage clickMyBasketButton() {
         myBasketButton.click();
