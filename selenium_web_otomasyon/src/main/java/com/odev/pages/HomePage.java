@@ -1,11 +1,12 @@
 package com.odev.pages;
 
-import com.odev.base.TestBase;
+import com.odev.base.BasePageObject;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class HomePage extends TestBase {
+public class HomePage extends BasePageObject {
 
     public final String EXPECTED_TITLE = "n11.com - Alışverişin Uğurlu Adresi";
 
@@ -18,22 +19,18 @@ public class HomePage extends TestBase {
     @FindBy(id = "searchData")
     WebElement searchBar;
 
-    public HomePage() {
-        PageFactory.initElements(driver, this);
-    }
-
-    public String getPageTitle() {
-        return driver.getTitle();
+    public HomePage(WebDriver driver) {
+        super(driver);
     }
 
     public LoginPage clickSignInButton() {
         signInButton.click();
-        return new LoginPage();
+        return new LoginPage(driver);
     }
 
     public SearchResultsPage search(String searchText) {
         searchBar.sendKeys(searchText);
         searchButton.click();
-        return new SearchResultsPage();
+        return new SearchResultsPage(driver);
     }
 }

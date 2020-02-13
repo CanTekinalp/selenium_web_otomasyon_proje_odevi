@@ -1,15 +1,14 @@
-package com.odev.testcases;
+package com.odev.test.cases;
 
-import com.odev.base.TestBase;
 import com.odev.pages.HomePage;
 import com.odev.pages.LoginPage;
 import com.odev.pages.SearchResultsPage;
+import com.odev.test.base.BaseFunctionalTest;
 import org.junit.*;
 
-public class HomePageTest extends TestBase {
+public class HomePageTest extends BaseFunctionalTest {
     HomePage homePage;
     LoginPage loginPage;
-    SearchResultsPage searchResultsPage;
 
     public HomePageTest() {
         super();
@@ -17,12 +16,13 @@ public class HomePageTest extends TestBase {
 
     @Before
     public void setup() {
-        init();
-        homePage = new HomePage();
+        System.out.println("HomePageTest - setup() - @Before");
+        homePage = new HomePage(driver);
     }
 
     @Test
     public void navigateLoginPageTest() {
+        System.out.println("HomePageTest - navigateLoginPageTest - @Test");
         loginPage = homePage.clickSignInButton();
         String title = loginPage.getPageTitle();
         Assert.assertEquals(loginPage.EXPECTED_TITLE, title);
@@ -30,13 +30,7 @@ public class HomePageTest extends TestBase {
 
     @Test
     public void homePageTitleTest() {
-        String title = homePage.getPageTitle();
-        Assert.assertEquals(homePage.EXPECTED_TITLE, title);
-    }
-
-
-    @After
-    public void tearDown() {
-        driver.quit();
+        System.out.println("HomePageTest - homePageTitleTest() - @Test");
+        Assert.assertEquals(homePage.EXPECTED_TITLE, homePage.getPageTitle());
     }
 }

@@ -15,7 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -37,6 +41,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -44,50 +49,50 @@
       <recent name="C:\Users\hadic\IdeaProjects\selenium_web_otomasyon\Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductPageTest.navigateToShopList">
-    <configuration name="HomePageSearchTest.navigateToSecondPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HomePageTest">
+    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_web_otomasyon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.odev.testcases.*" />
+          <option name="PATTERN" value="com.odev.test.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.odev.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.odev.testcases.HomePageSearchTest" />
-      <option name="METHOD_NAME" value="navigateToSecondPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageSearchTest.searchButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_web_otomasyon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.odev.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.odev.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.odev.testcases.HomePageSearchTest" />
-      <option name="METHOD_NAME" value="searchButtonTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_web_otomasyon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.odev.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.odev.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.odev.testcases.LoginPageTest" />
+      <option name="PACKAGE_NAME" value="com.odev.test.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.odev.test.cases.HomePageTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.homePageTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_web_otomasyon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.odev.test.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.odev.test.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.odev.test.cases.HomePageTest" />
+      <option name="METHOD_NAME" value="homePageTitleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.navigateLoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_web_otomasyon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.odev.test.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.odev.test.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.odev.test.cases.HomePageTest" />
+      <option name="METHOD_NAME" value="navigateLoginPageTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,29 +101,29 @@
       <module name="selenium_web_otomasyon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.odev.testcases.*" />
+          <option name="PATTERN" value="com.odev.test.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.odev.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.odev.testcases.LoginPageTest" />
+      <option name="PACKAGE_NAME" value="com.odev.test.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.odev.test.cases.LoginPageTest" />
       <option name="METHOD_NAME" value="loginPageLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTest.navigateToShopList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductPageTest.addProductAndNavigateToShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_web_otomasyon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.odev.testcases.*" />
+          <option name="PATTERN" value="com.odev.test.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.odev.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.odev.testcases.ProductPageTest" />
-      <option name="METHOD_NAME" value="navigateToShopList" />
+      <option name="PACKAGE_NAME" value="com.odev.test.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.odev.test.cases.ProductPageTest" />
+      <option name="METHOD_NAME" value="addProductAndNavigateToShoppingList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductPageTest.navigateToShopList" />
-        <item itemvalue="JUnit.HomePageSearchTest.navigateToSecondPage" />
-        <item itemvalue="JUnit.HomePageSearchTest.searchButtonTest" />
-        <item itemvalue="JUnit.LoginPageTest" />
+        <item itemvalue="JUnit.HomePageTest" />
+        <item itemvalue="JUnit.HomePageTest.homePageTitleTest" />
+        <item itemvalue="JUnit.HomePageTest.navigateLoginPageTest" />
         <item itemvalue="JUnit.LoginPageTest.loginPageLoginTest" />
+        <item itemvalue="JUnit.ProductPageTest.addProductAndNavigateToShoppingList" />
       </list>
     </recent_temporary>
   </component>
@@ -160,60 +165,53 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="93" y="73" width="1182" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.768@0.0.1366.768" timestamp="1581526870414" />
-    <state width="426" height="438" key="DebuggerActiveHint" timestamp="1581547471714">
+    <state width="716" height="438" key="DebuggerActiveHint" timestamp="1581616863838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="426" height="438" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1581547471714" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1581595274744">
+    <state width="716" height="438" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1581616863838" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1581621358533">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581595274744" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1581595274744">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581621358533" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1581621358532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581595274744" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1581595274744">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581621358532" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1581621358532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581595274744" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1581595274744">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581621358532" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1581621358532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581595274744" />
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom" timestamp="1581592600058">
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581621358532" />
+    <state width="1323" height="232" key="GridCell.Tab.1.bottom" timestamp="1581621067723">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581592600058" />
-    <state width="1323" height="192" key="GridCell.Tab.1.center" timestamp="1581592600057">
+    <state width="1323" height="232" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581621067723" />
+    <state width="1323" height="232" key="GridCell.Tab.1.center" timestamp="1581621067723">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581592600057" />
-    <state width="1323" height="192" key="GridCell.Tab.1.left" timestamp="1581592600057">
+    <state width="1323" height="232" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581621067723" />
+    <state width="1323" height="232" key="GridCell.Tab.1.left" timestamp="1581621067722">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581592600057" />
-    <state width="1323" height="192" key="GridCell.Tab.1.right" timestamp="1581592600057">
+    <state width="1323" height="232" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581621067722" />
+    <state width="1323" height="232" key="GridCell.Tab.1.right" timestamp="1581621067723">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581592600057" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581576875518">
+    <state width="1323" height="232" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581621067723" />
+    <state x="184" y="27" key="SettingsEditor" timestamp="1581603631780">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581576875518" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581578589698">
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581603631780" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581603526941">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1581578589698" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/odev/testcases/ProductPageTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581603526941" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581604827306">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1581604827306" />
   </component>
 </project>

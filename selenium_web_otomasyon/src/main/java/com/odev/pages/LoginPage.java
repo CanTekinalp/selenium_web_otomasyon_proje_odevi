@@ -1,11 +1,12 @@
 package com.odev.pages;
 
-import com.odev.base.TestBase;
+import com.odev.base.BasePageObject;
+import com.odev.utils.PropertyUtils;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends TestBase {
+public class LoginPage extends BasePageObject {
     public final String EXPECTED_TITLE = "Giriş Yap - n11.com";
 
     @FindBy(id = "email")
@@ -17,19 +18,15 @@ public class LoginPage extends TestBase {
     @FindBy(id = "loginButton")
     WebElement loginButton;
 
-    public LoginPage() {
-        PageFactory.initElements(driver, this);
-    }
-
-    public String getPageTitle() {
-        return driver.getTitle();
+    public LoginPage(WebDriver driver) {
+        super(driver);
     }
 
     public HomePage clickLoginButton() {
-        emailTextField.sendKeys(properties.getProperty("username"));
-        passwordTextField.sendKeys(properties.getProperty("password"));
+        emailTextField.sendKeys(PropertyUtils.instance().getProperty("username"));
+        passwordTextField.sendKeys(PropertyUtils.instance().getProperty("password"));
         loginButton.click();
-        return new HomePage();
+        return new HomePage(driver);
     }
 
 }
